@@ -1,0 +1,23 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    height: 200px;
+    display: flex;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+.varticle img{
+    height: calc((100% - 3px)/2);
+    /* width: 100%; */
+}
+.row div{
+    flex: 1;
+}
+.squar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3px;
+}
